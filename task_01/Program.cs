@@ -18,8 +18,7 @@ void PrintResult(int[] array)
     {
         Console.Write(array[i] + " ");
         if (array[i] % 2 == 0) even++;
-        
-    }
+            }
     Console.WriteLine();
     Console.WriteLine($"Количество четных чисел - {even}");
     Console.WriteLine();
