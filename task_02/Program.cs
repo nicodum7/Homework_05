@@ -2,7 +2,6 @@
 // Найти сумму элементов, стоящих на нечётных позициях.
 
 int size = 11;
-
 int[] FillArray(int size)
 {
     int[] array = new int[size];
@@ -12,7 +11,6 @@ int[] FillArray(int size)
     }
     return array;
 }
-
 void PrintArray(int[] arr)
 {
     int sum = 0;
@@ -26,5 +24,4 @@ void PrintArray(int[] arr)
     Console.WriteLine($"Сумма элементов на нечётной позиции равна {sum} ");
     Console.WriteLine();
 }
-
 PrintArray(FillArray(size));
